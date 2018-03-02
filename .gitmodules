@@ -1,0 +1,6 @@
+[submodule "qbjs"]
+	path = qbjs
+	url = https://github.com/OpenQb/qbjs.git
+[submodule "qbjsx"]
+	path = qbjsx
+	url = https://github.com/OpenQb/qbjsx.git
