@@ -1,0 +1,20 @@
+{
+    "name"			: "PixQb",
+	"version"		: "1.0.0",
+	"build"         : 1,
+    "namespace"		: "com.github.openqb.PixQb",
+	
+    "supportedOs"   : ["osx","windows","linux"],
+
+	"category"      : "Application",
+    "subCategory"   : "Photography",
+    "genre"   		: "Photography",
+	
+    "runtimeMode"   : "ZPACK",
+    "minQbVersion"  : "1",
+
+    "description"   : "PixQb helps you to render QML as image",
+
+    "author"		: [{"name":"KAWSER","link":"https://github.com/mkawserm"}],
+    "projectLink"	: [{"name":"GitHub","link":"https://github.com/OpenQb/PixQb"}]
+}
