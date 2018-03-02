@@ -7,17 +7,16 @@ import Qb.Archive 1.0
 import "app.js" as AppJS
 import "qbjsx/qbpaths.js" as QbPathsJS
 
-
 QbApp {
     id: appUI
     
+    property alias dirObject: dirObject;
     property alias zipObject: zipObject;
     property alias coreObject: coreObject;
+    property alias pathsObject: pathsObject;
 
     Component.onCompleted: {
         AppJS.init(appUI,Qt.platform.os);
-        var t1 = new QbPathsJS.QbPaths(appUI);
-        console.log(t1.documents());
     }
 
     /**** Initialize all non gui components here **************************************************/
@@ -32,6 +31,14 @@ QbApp {
     QbSettings{
         id: settingsObject
         name: appUI.appTitle
+    }
+
+    QbPaths{
+        id: pathsObject
+    }
+
+    QbDir{
+        id: dirObject
     }
 
     /**** Initialize all gui components here **************************************************/
