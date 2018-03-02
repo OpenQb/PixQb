@@ -1,3 +1,3 @@
-# QbFeed
+# PixQb
 
-QbFeed allows you to collect data using rss,atom or api.
+PixQb will help you to render QML as image

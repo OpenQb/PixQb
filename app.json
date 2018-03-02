@@ -13,7 +13,7 @@
     "runtimeMode"   : "ZPACK",
     "minQbVersion"  : "1",
 
-    "description"   : "PixQb helps you to render QML as image",
+    "description"   : "PixQb will help you to render QML as image",
 
     "author"		: [{"name":"KAWSER","link":"https://github.com/mkawserm"}],
     "projectLink"	: [{"name":"GitHub","link":"https://github.com/OpenQb/PixQb"}]
